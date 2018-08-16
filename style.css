@@ -1,0 +1,80 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+p{
+  color: WHITE;
+  font-size: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: WHITE;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: WHITE;
+ font-size: 20px;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  padding: 20px 10px;
+}
+img {
+    border: 1px solid BLUE;
+  
+    padding: 5px;
+    width: 250px;
+    height: 215px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+h2
+{
+ color: RED;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 35%;
+  background-color: #ddd;
+  margin-right: 60%;
+
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 15px;
+  color: white;
+  
+}
+div{
+  margin-right: 80px;
+}
+
+.html {width: 50%;  background-color: #4CAF50;}
+.css {width: 50%;   background-color: #2196F3;}
+.Javascript {width: 50%;  background-color:VOILET;}
+.C {width: 50%;   background-color: #808080;}
+.C++ {width: 50%;   background-color:YELLOW;}
+.JAVA {width: 50%;   background-color: #808080;}
+.PYTHON {width: 50%;   background-color: #4CAF50;}
+.R {width: 50%;   background-color: #2196F3;}
+.DATA {width: 50%;   background-color: BLACK;}
